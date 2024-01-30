@@ -44,7 +44,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>My first React Native app. Yay!</Text>
+      <Text>My first React Native app. Yay! This app is using Firebase</Text>
       <Button title="Count" onPress={incrementCount} />
       <Text>{count}</Text>
     </View>
